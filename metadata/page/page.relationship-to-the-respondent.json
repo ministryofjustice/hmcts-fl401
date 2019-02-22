@@ -1,0 +1,215 @@
+{
+  "_id": "page.relationship-to-the-respondent",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.relationship-to-the-respondent--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--checkbox.auto_name__32",
+          "_type": "checkbox",
+          "label": "Married",
+          "name": "auto_name__32"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--checkbox.auto_name__33",
+          "_type": "checkbox",
+          "label": "Civil Partners",
+          "name": "auto_name__33"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--checkbox.auto_name__34",
+          "_type": "checkbox",
+          "label": "Were married",
+          "name": "auto_name__34"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--checkbox.auto_name__35",
+          "_type": "checkbox",
+          "label": "Former civil partners",
+          "name": "auto_name__35"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--checkbox.auto_name__36",
+          "_type": "checkbox",
+          "label": "Cohabiting",
+          "name": "auto_name__36"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--checkbox.auto_name__37",
+          "_type": "checkbox",
+          "label": "Were cohabiting",
+          "name": "auto_name__37"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--checkbox.auto_name__38",
+          "_type": "checkbox",
+          "label": "Both of you live or have lived in the same household",
+          "name": "auto_name__38"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--checkbox.auto_name__39",
+          "_type": "checkbox",
+          "label": "Relative",
+          "name": "auto_name__39"
+        }
+      ],
+      "legend": "Your relationship to the respondent is: (Please tick only one of the following)"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.relationship-to-the-respondent--textarea.auto_name__46",
+      "_type": "textarea",
+      "label": "State how related",
+      "name": "auto_name__46"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.relationship-to-the-respondent--checkboxes--2",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.relationship-to-the-respondent--checkboxes--2--checkbox.auto_name__41",
+          "_type": "checkbox",
+          "label": "Agreed to marry",
+          "name": "auto_name__41"
+        }
+      ]
+    },
+    {
+      "_id": "page.relationship-to-the-respondent--textarea.auto_name__40",
+      "_type": "textarea",
+      "label": "Give the date the agreement was made. If the agreement has ended, state when.",
+      "name": "auto_name__40"
+    },
+    {
+      "_id": "page.relationship-to-the-respondent--checkboxes--3",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.relationship-to-the-respondent--checkboxes--3--checkbox.auto_name__42",
+          "_type": "checkbox",
+          "label": "Agreed to form a civil partnership",
+          "name": "auto_name__42"
+        }
+      ]
+    },
+    {
+      "_id": "page.relationship-to-the-respondent--textarea.auto_name__43",
+      "_type": "textarea",
+      "label": "Give the date the agreement was made. If the agreement has ended, state when.",
+      "name": "auto_name__43"
+    },
+    {
+      "_id": "page.relationship-to-the-respondent--checkboxes--4",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.relationship-to-the-respondent--checkboxes--4--checkbox.auto_name__44",
+          "_type": "checkbox",
+          "label": "Both of you are parents of, or have parental responsibility for, a child",
+          "name": "auto_name__44"
+        },
+        {
+          "_id": "page.relationship-to-the-respondent--checkboxes--4--checkbox.auto_name__45",
+          "_type": "checkbox",
+          "label": "One of you is a parent of a child and the other has parental responsibility for that child",
+          "name": "auto_name__45"
+        },
+        {
+          "_id": "page.relationship-to-the-respondent--checkboxes--4--checkbox.auto_name__47",
+          "_type": "checkbox",
+          "label": "You are having, or have had an intimate personal relationship which is or was of significant duration",
+          "name": "auto_name__47"
+        },
+        {
+          "_id": "page.relationship-to-the-respondent--checkboxes--4--checkbox.auto_name__48",
+          "_type": "checkbox",
+          "label": "One of you is the natural parent or grandparent of a child adopted, placed or freed for adoption, and the other is:",
+          "name": "auto_name__48"
+        }
+      ]
+    },
+    {
+      "_id": "page.relationship-to-the-respondent--radios.auto_name__49",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.relationship-to-the-respondent--radios.auto_name__49--radio.auto_value__5",
+          "_type": "radio",
+          "label": "the adoptive parent, or",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.relationship-to-the-respondent--radios.auto_name__49--radio.auto_value__6",
+          "_type": "radio",
+          "label": "a person who has applied for an adoption order for the child, or",
+          "value": "auto_value__6"
+        },
+        {
+          "_id": "page.relationship-to-the-respondent--radios.auto_name__49--radio.auto_value__7",
+          "_type": "radio",
+          "label": "a person with whom the child has been placed for adoption, or",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.relationship-to-the-respondent--radios.auto_name__49--radio.auto_value__8",
+          "_type": "radio",
+          "label": "the child who has been adopted, placed or freed for adoption",
+          "value": "auto_value__8"
+        }
+      ],
+      "name": "auto_name__49"
+    },
+    {
+      "_id": "page.relationship-to-the-respondent--checkboxes--5",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.relationship-to-the-respondent--checkboxes--5--checkbox.auto_name__50",
+          "_type": "checkbox",
+          "label": "Both of you are the parties to the same family proceedings (see also Section 11 below).",
+          "name": "auto_name__50"
+        }
+      ]
+    }
+  ],
+  "heading": "Your relationship to the respondent (the person to be served with this application)",
+  "url": "relationship-to-the-respondent"
+}

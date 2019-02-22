@@ -1,0 +1,117 @@
+{
+  "_id": "page.your-details",
+  "_type": "page.form",
+  "body": "State your title, full name, address, telephone number and date of birth (if under 18).",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.your-details--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Mr",
+          "value": "auto_value__1"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Mrs",
+          "value": "auto_value__2"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Ms",
+          "value": "auto_value__3"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.your-details--radios.auto_name__2--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Miss",
+          "value": "auto_value__4"
+        }
+      ],
+      "name": "auto_name__2"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__1",
+      "_type": "text",
+      "label": "Full name",
+      "name": "auto_name__1"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__3",
+      "_type": "text",
+      "hint": "Building number or name",
+      "label": "Address",
+      "name": "auto_name__3",
+      "repeatable": false
+    },
+    {
+      "_id": "page.your-details--text.auto_name__8",
+      "_type": "text",
+      "label": "Street",
+      "name": "auto_name__8"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__9",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "auto_name__9"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__10",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__10"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__11",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__11"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__4",
+      "_type": "text",
+      "label": "Telephone number",
+      "name": "auto_name__4"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--date.auto_name__5",
+      "_type": "date",
+      "label": "Date of birth",
+      "name": "auto_name__5"
+    }
+  ],
+  "heading": "Your details",
+  "url": "your-details"
+}

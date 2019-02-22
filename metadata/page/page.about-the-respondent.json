@@ -1,0 +1,58 @@
+{
+  "_id": "page.about-the-respondent",
+  "_type": "page.form",
+  "body": "State the respondent’s name, address and date of birth (if known).",
+  "components": [
+    {
+      "_id": "page.about-the-respondent--text.auto_name__21",
+      "_type": "text",
+      "label": "Full name",
+      "name": "auto_name__21"
+    },
+    {
+      "_id": "page.about-the-respondent--text.auto_name__22",
+      "_type": "text",
+      "hint": "Building number or name",
+      "label": "Address",
+      "name": "auto_name__22"
+    },
+    {
+      "_id": "page.about-the-respondent--text.auto_name__23",
+      "_type": "text",
+      "label": "Street",
+      "name": "auto_name__23"
+    },
+    {
+      "_id": "page.about-the-respondent--text.auto_name__24",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "auto_name__24"
+    },
+    {
+      "_id": "page.about-the-respondent--text.auto_name__25",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__25"
+    },
+    {
+      "_id": "page.about-the-respondent--text.auto_name__26",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__26"
+    },
+    {
+      "_id": "page.about-the-respondent--text.auto_name__27",
+      "_type": "text",
+      "label": "Telephone number",
+      "name": "auto_name__27"
+    },
+    {
+      "_id": "page.about-the-respondent--date.auto_name__28",
+      "_type": "date",
+      "label": "Date of birth",
+      "name": "auto_name__28"
+    }
+  ],
+  "heading": "About the respondent",
+  "url": "about-the-respondent"
+}

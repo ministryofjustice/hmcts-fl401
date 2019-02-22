@@ -1,0 +1,84 @@
+{
+  "_id": "page.solicitor-details",
+  "_type": "page.form",
+  "body": "State your solicitor’s name, address, reference, telephone, FAX and DX numbers.",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.solicitor-details--text.auto_name__6",
+      "_type": "text",
+      "label": "Full name",
+      "name": "auto_name__6"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.solicitor-details--text.auto_name__12",
+      "_type": "text",
+      "hint": "Building number or name",
+      "label": "Address",
+      "name": "auto_name__12"
+    },
+    {
+      "_id": "page.solicitor-details--text.auto_name__7",
+      "_type": "text",
+      "label": "Street",
+      "name": "auto_name__7"
+    },
+    {
+      "_id": "page.solicitor-details--text.auto_name__13",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "auto_name__13"
+    },
+    {
+      "_id": "page.solicitor-details--text.auto_name__14",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__14"
+    },
+    {
+      "_id": "page.solicitor-details--text.auto_name__15",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__15"
+    },
+    {
+      "_id": "page.solicitor-details--text.auto_name__16",
+      "_type": "text",
+      "label": "Reference",
+      "name": "auto_name__16"
+    },
+    {
+      "_id": "page.solicitor-details--text.auto_name__17",
+      "_type": "text",
+      "label": "Telephone",
+      "name": "auto_name__17"
+    },
+    {
+      "_id": "page.solicitor-details--number.auto_name__18",
+      "_type": "number",
+      "label": "FAX number",
+      "name": "auto_name__18"
+    },
+    {
+      "_id": "page.solicitor-details--number.auto_name__19",
+      "_type": "number",
+      "label": "DX number",
+      "name": "auto_name__19"
+    },
+    {
+      "_id": "page.solicitor-details--number.auto_name__20",
+      "_type": "number",
+      "label": "Solicitor's fee account number",
+      "name": "auto_name__20"
+    }
+  ],
+  "heading": "Your solicitor's details",
+  "url": "solicitor-details"
+}
