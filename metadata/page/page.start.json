@@ -11,7 +11,14 @@
     "page.orders-you-are-applying-for",
     "page.relationship-to-the-respondent",
     "page.occupation-order-application",
-    "page.apply-for-occupation-order"
+    "page.apply-for-occupation-order",
+    "page.home-rights",
+    "page.additional-orders-dwelling-house",
+    "page.mortgage-rent",
+    "page.at-the-court",
+    "page.other-information",
+    "page.other-proceedings-and-orders",
+    "page.check-your-answers"
   ],
   "url": "/"
 }

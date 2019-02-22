@@ -1,0 +1,66 @@
+{
+  "_id": "page.mortgage-rent",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.mortgage-rent--radios.auto_name__74",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.mortgage-rent--radios.auto_name__74--radio.auto_value__13",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.mortgage-rent--radios.auto_name__74--radio.auto_value__13--textarea.auto_name__77",
+            "_type": "textarea",
+            "label": "Provide the name and address of the mortgagee:",
+            "name": "auto_name__77"
+          },
+          "label": "Yes",
+          "value": "auto_value__13"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.mortgage-rent--radios.auto_name__74--radio.auto_value__14",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__14"
+        }
+      ],
+      "legend": "Is the dwelling-house subject to a mortgage?",
+      "name": "auto_name__74"
+    },
+    {
+      "_id": "page.mortgage-rent--radios.auto_name__76",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.mortgage-rent--radios.auto_name__76--radio.auto_value__15",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.mortgage-rent--radios.auto_name__76--radio.auto_value__15--textarea.auto_name__75",
+            "_type": "textarea",
+            "label": "Provide the name and address of the landlord:",
+            "name": "auto_name__75"
+          },
+          "label": "Yes",
+          "value": "auto_value__15"
+        },
+        {
+          "_id": "page.mortgage-rent--radios.auto_name__76--radio.auto_value__16",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__16"
+        }
+      ],
+      "legend": "Is the dwelling-house rented?",
+      "name": "auto_name__76"
+    }
+  ],
+  "heading": "Mortgage and rent",
+  "url": "mortgage-and-rent"
+}

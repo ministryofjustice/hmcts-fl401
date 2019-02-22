@@ -91,6 +91,7 @@
           "conditionalComponent": {
             "_id": "page.apply-for-occupation-order--radios.auto_name__61--radio.auto_value__11--textarea.auto_name__62",
             "_type": "textarea",
+            "label": "Explain why",
             "name": "auto_name__62"
           },
           "label": "Yes",
@@ -105,6 +106,61 @@
       ],
       "legend": "State whether the respondent is entitled to occupy the dwelling-house.",
       "name": "auto_name__61"
+    },
+    {
+      "_id": "page.apply-for-occupation-order--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.apply-for-occupation-order--checkboxes--checkbox.auto_name__63",
+          "_type": "checkbox",
+          "label": "a spouse or civil partner who has home rights in the dwelling-house, or a person who is entitled to occupy it by virtue of a beneficial estate or interest or contract or by virtue of any enactment giving him or her the right to remain in occupation.",
+          "name": "auto_name__63"
+        }
+      ],
+      "legend": "On the basis of your answers to (C) and (D) above, tick one of the boxes 1 to 6 below to show the category into which you fit."
+    },
+    {
+      "_id": "page.apply-for-occupation-order--textarea.auto_name__64",
+      "_type": "textarea",
+      "label": "If you tick box 1, state whether there is a dispute or pending proceedings between you and the respondent about your right to occupy the dwelling-house.",
+      "name": "auto_name__64"
+    },
+    {
+      "_id": "page.apply-for-occupation-order--checkboxes--2",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.apply-for-occupation-order--checkboxes--2--checkbox.auto_name__65",
+          "_type": "checkbox",
+          "label": "a former spouse or former civil partner with no existing right to occupy, where the respondent spouse or civil partner is so entitled.",
+          "name": "auto_name__65"
+        },
+        {
+          "_id": "page.apply-for-occupation-order--checkboxes--2--checkbox.auto_name__66",
+          "_type": "checkbox",
+          "label": "a cohabitant or former cohabitant with no existing right to occupy, where the respondent cohabitant or former cohabitant is so entitled.",
+          "name": "auto_name__66"
+        },
+        {
+          "_id": "page.apply-for-occupation-order--checkboxes--2--checkbox.auto_name__67",
+          "_type": "checkbox",
+          "label": "a spouse or former spouse who is not entitled to occupy, where the respondent spouse or former spouse is also not entitled.",
+          "name": "auto_name__67"
+        },
+        {
+          "_id": "page.apply-for-occupation-order--checkboxes--2--checkbox.auto_name__68",
+          "_type": "checkbox",
+          "label": "a civil partner or former civil partner who is not entitled to occupy, where the respondent civil partner or former civil partner is also not entitled.",
+          "name": "auto_name__68"
+        },
+        {
+          "_id": "page.apply-for-occupation-order--checkboxes--2--checkbox.auto_name__69",
+          "_type": "checkbox",
+          "label": "a cohabitant or former cohabitant who is not entitled to occupy, where the respondent cohabitant or former cohabitant is also not entitled.",
+          "name": "auto_name__69"
+        }
+      ]
     }
   ],
   "heading": "Application for an occupation order",

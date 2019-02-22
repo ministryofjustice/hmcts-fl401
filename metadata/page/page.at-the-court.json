@@ -1,0 +1,51 @@
+{
+  "_id": "page.at-the-court",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.at-the-court--radios.auto_name__78",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.at-the-court--radios.auto_name__78--radio.auto_value__17",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.at-the-court--radios.auto_name__78--radio.auto_value__17--text.auto_name__79",
+            "_type": "text",
+            "label": "Specify the language",
+            "name": "auto_name__79"
+          },
+          "label": "Yes",
+          "value": "auto_value__17"
+        },
+        {
+          "_id": "page.at-the-court--radios.auto_name__78--radio.auto_value__18",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__18"
+        }
+      ],
+      "legend": "Will you need an interpreter at court?",
+      "name": "auto_name__78"
+    },
+    {
+      "_id": "page.at-the-court--content",
+      "_type": "content",
+      "html": "If you require an interpreter, you must notify the court immediately so that one can be arranged."
+    },
+    {
+      "_id": "page.at-the-court--textarea.auto_name__80",
+      "_type": "textarea",
+      "label": "If you or the person to be protected has a disability for which you require special assistance or facilities, please state what is needed. The court staff will then get in touch with you if necessary.",
+      "name": "auto_name__80"
+    },
+    {
+      "_id": "page.at-the-court--textarea.auto_name__81",
+      "_type": "textarea",
+      "label": "Please say whether the court needs to make any special arrangements for you or the person to be protected, to attend court (e.g. providing you with a separate waiting room from the respondent or other security provision).",
+      "name": "auto_name__81"
+    }
+  ],
+  "heading": "At the court",
+  "url": "at-the-court"
+}

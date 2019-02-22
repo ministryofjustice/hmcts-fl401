@@ -1,0 +1,26 @@
+{
+  "_id": "page.home-rights",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.home-rights--textarea.auto_name__70",
+      "_type": "textarea",
+      "label": "If you do have home rights please: State whether the title to the land is registered or unregistered (if known):",
+      "name": "auto_name__70"
+    },
+    {
+      "_id": "page.home-rights--text.auto_name__71",
+      "_type": "text",
+      "label": "If registered, state the Land Registry title number (if known):",
+      "name": "auto_name__71"
+    },
+    {
+      "_id": "page.home-rights--textarea.auto_name__72",
+      "_type": "textarea",
+      "label": "If you wish to apply for an occupation order, state briefly here the order you want. Give full details in support of your application in your supporting evidence:",
+      "name": "auto_name__72"
+    }
+  ],
+  "heading": "Home Rights",
+  "url": "home-rights"
+}
